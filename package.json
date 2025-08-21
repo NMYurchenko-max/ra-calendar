@@ -1,0 +1,58 @@
+{
+  "name": "ra-calendar",
+  "private": false,
+  "version": "0.0.1",
+  "description": "React. Components-task*",
+  "homepage": "https://github.com/NMYurchenko-max/ra-calendar.git#readme",
+  "bugs": {
+    "url": "https://github.com/NMYurchenko-max/ra-calendar/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NMYurchenko-max/ra-calendar.git"
+  },
+  "license": "ISC",
+  "author": "N.Yurchenko",
+  "type": "module",
+  "main": "main.jsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "format": "prettier . --write",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.33.0",
+    "@eslint/js": "^9.33.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "gh-pages": "6.3.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.1.2"
+  },
+   "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
