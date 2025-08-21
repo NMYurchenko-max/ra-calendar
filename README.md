@@ -10,6 +10,9 @@
 
 ## Getting Started: `yarn create vite my-app --template react`
 
+Особенность: Добавлен атрибут key={item.date} для каждого элемента <td> внутри week.dates.map(),
+
+
 ## Использование
 
 `yarn install`

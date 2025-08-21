@@ -68,7 +68,9 @@ export const Calendar = ({ date = Date.now(), locale = "ru" }) => {
           {weeks.map((week) => (
             <tr key={week.id}>
               {week.dates.map((item) => (
-                <td className={getDateClassNames(item)}>{item.date}</td>
+                <td key={item.date} className={getDateClassNames(item)}>
+                  {item.date}
+                </td>
               ))}
             </tr>
           ))}
